@@ -1,0 +1,46 @@
+{
+  "name": "@myunfi-react/myunfi-react-app-starter",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Matthew X. Soyka <matthew.x.soyka@supervalu.com>",
+  "homepage": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://eplnx440.supervalu.com/repository/npm-private/"
+  },
+  "directories": {
+    "src": "src",
+    "public": "public"
+  },
+  "dependencies": {
+    "@myunfi-react/myunfi-eslint-scripts": "^1.0.19",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.2",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "precommit": "myunfi-eslint-scripts precommit",
+    "format": "myunfi-eslint-scripts format",
+    "lint": "myunfi-eslint-scripts lint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
