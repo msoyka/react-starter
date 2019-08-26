@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Matthew X. Soyka <matthew.x.soyka@supervalu.com>",
-  "homepage": "",
   "license": "ISC",
   "publishConfig": {
     "registry": "https://eplnx440.supervalu.com/repository/npm-private/"
   },
   "directories": {
-    "src": "src",
-    "public": "public"
+    "src": "src"
   },
   "dependencies": {
     "@myunfi-react/myunfi-eslint-scripts": "^1.0.19",
