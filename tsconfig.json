@@ -1,4 +1,4 @@
 {
-  "extends": "./node_modules/@myunfi-react/ts-config-myunfi-react-app/lib/index.json",
+  "extends": "./node_modules/@myunfi-react/ts-config-myunfi-react-app/index.json",
   "include": ["src"]
 }
