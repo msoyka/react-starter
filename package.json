@@ -8,10 +8,12 @@
     "src": "src"
   },
   "dependencies": {
-    "@myunfi-react/myunfi-create-react-app": "^1.0.2"
+    "@myunfi-react/myunfi-create-react-app": "^1.0.2",
+    "@myunfi-react/myunfi-ui": "^1.0.21"
   },
   "devDependencies": {
-    "@myunfi-react/myunfi-eslint-scripts": "^1.0.29"
+    "@myunfi-react/myunfi-eslint-scripts": "^1.0.30",
+    "@myunfi-react/myunfi-storybook": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,6 +21,8 @@
     "test": "react-scripts test",
     "precommit": "myunfi-eslint-scripts precommit",
     "format": "myunfi-eslint-scripts format",
-    "lint": "myunfi-eslint-scripts lint"
+    "lint": "myunfi-eslint-scripts lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
