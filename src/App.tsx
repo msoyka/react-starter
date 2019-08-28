@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@myunfi-react/myunfi-ui';
+import { Button } from '@myunfi-react/myunfi-ui/core';
 
 import logo from './logo.svg';
 import './App.css';
@@ -9,7 +9,9 @@ const App: React.FC = () => {
     <div className='App'>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <Button text='myUNFI Button' />
+        <Button variant='contained' color='primary'>
+          Primary
+        </Button>
         <p>
           Edit <code>src/App.tsx</code> and save to reloads.
         </p>

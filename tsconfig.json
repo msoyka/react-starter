@@ -1,4 +1,7 @@
 {
   "extends": "./node_modules/@myunfi-react/ts-config-myunfi-react-app/index.json",
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
   "include": ["src"]
 }
